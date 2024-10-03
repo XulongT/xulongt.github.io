@@ -18,6 +18,27 @@
 @import "reset";
 @import "base";
 
+// 全局字体大小设置
+body {
+    font-size: 18px; // 将默认字体大小增大，例如从 16px 增加到 18px
+    line-height: 1.6; // 增大行高，保持可读性
+}
+
+// 调整标题大小
+h1, h2, h3, h4, h5, h6 {
+    font-size: 1.1em; // 增大标题字体比例
+}
+
+// 增大段落字体大小
+p {
+    font-size: 1.1em; // 段落文字大小调整
+}
+
+// 调整导航栏字体大小
+.nav {
+    font-size: 1.1em; // 增大导航栏字体
+}
+
 @import "utilities";
 @import "animations";
 @import "tables";
@@ -48,9 +69,8 @@
     flex-wrap: wrap;
     border-bottom: 1px #efefef solid;
     padding: 2em 0 2em 0;
-    
 
-    .paper-box-image{
+    .paper-box-image {
         justify-content: center;
         display: flex;
         width: 100%;
@@ -61,33 +81,30 @@
             object-fit: cover;
         }
     }
-    
-    .paper-box-text{
+
+    .paper-box-text {
         max-width: 100%;
         order: 1;
     }
-    
+
     @include breakpoint($medium) {
-        .paper-box-image{
+        .paper-box-image {
             justify-content: left;
             min-width: 200px;
             max-width: 40%;
             order: 1;
         }
-        
-        .paper-box-text{
+
+        .paper-box-text {
             justify-content: left;
             padding-left: 2em;
             max-width: 60%;
             order: 2;
         }
-
     }
-
-
 }
 
-$scroll_offset : 2em;
+$scroll_offset: 2em;
 h1:before, .anchor:before { 
     content: ''; 
     display: block; 
