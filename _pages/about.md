@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Yo! I'm Xulong Tang, you can call me Ben!
+Hello! I'm Xulong Tang, you can call me Ben!
 
 I am a first-year PhD student in the Department of Computer Science at The University of Texas at Dallas.
 
@@ -47,9 +47,10 @@ I have also contributed to the development of an unreleased third-person surviva
 [[PDF](https://dl.acm.org/doi/abs/10.1145/3652583.3657998)]
 [[CODE](https://github.com/XulongT/CoDancers)]
 
-Kaixing Yang*, Xulong Tang*, Ran Diao, Hongyan Liu, Jun He, Zhaoxin Fan
+Kaixing Yang\*, Xulong Tang\*, Ran Diao, Hongyan Liu, Jun He, Zhaoxin Fan
 
-*: Equal contribution
+\*: Equal contribution
+
 
 **ICMR 2024**
 
