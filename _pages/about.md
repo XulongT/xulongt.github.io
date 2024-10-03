@@ -65,7 +65,7 @@ Kaixing Yang, Xukun Zhou, Xulong Tang, Ran Diao, Hongyan Liu, Jun He, Zhaoxin Fa
 # 📖 Education
 - *2024.01 - present*, PhD in Computer Science, The University of Texas at Dallas, Richardson, Texas
 - *2023.09 - 2024.01*, Master of Computer Science, The University of Texas at Dallas, Richardson, Texas
-- *2018.09 - 2022.06*, Bachelor of Engineering, Xidian University, Xi'an, China
+- *2018.09 - 2022.06*, Undergraduate, Xidian University, Xi'an, China
 
 
 
