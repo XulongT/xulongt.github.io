@@ -20,7 +20,7 @@ redirect_from:
 # 🐲 About Xulong
 Hello! I'm Xulong Tang, you can call me Ben!
 
-I am a first-year PhD student in the Department of Computer Science at The University of Texas at Dallas.
+I am a second-year PhD student in the Department of Computer Science at The University of Texas at Dallas.
 
 **Research Interests**: 
 - Extended Reality (XR), including Virtual Reality, Augmented Reality, and Mixed Reality
@@ -35,6 +35,8 @@ I have used Unity to create a VR educational game for teaching children about th
 I have also contributed to the development of an unreleased third-person survival shooter game using Unreal Engine and C++, where I was responsible for gameplay and user interface.
 
 # 🔥 News
+- *2025.09*: &nbsp;🎉🎉 One papers was accepted at NeurIPS 2025.
+- *2025.07*: &nbsp;🎉🎉 One papers was accepted at ACM Multimedia 2025.
 - *2024.06*: &nbsp;🎉🎉 Two papers were accepted at ICMR 2024.
 - *2024.01*: &nbsp;🎉🎉 Started my PhD at The University of Texas at Dallas.
 
