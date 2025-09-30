@@ -23,6 +23,7 @@ Hello! I'm Xulong Tang, you can call me Ben!
 I am a second-year PhD student in the Department of Computer Science at The University of Texas at Dallas.
 
 **Research Interests**: 
+- 3D Human Dance Motion Generation
 - Extended Reality (XR), including Virtual Reality, Augmented Reality, and Mixed Reality
 - Computer Vision
 - Multimedia Retrieval
@@ -35,13 +36,35 @@ I have used Unity to create a VR educational game for teaching children about th
 I have also contributed to the development of an unreleased third-person survival shooter game using Unreal Engine and C++, where I was responsible for gameplay and user interface.
 
 # 🔥 News
-- *2025.09*: &nbsp;🎉🎉 One papers was accepted at NeurIPS 2025.
-- *2025.07*: &nbsp;🎉🎉 One papers was accepted at ACM Multimedia 2025.
+- *2025.09*: &nbsp;🎉🎉 One paper was accepted at NeurIPS 2025.
+- *2025.07*: &nbsp;🎉🎉 One paper was accepted at ACM Multimedia 2025.
 - *2024.06*: &nbsp;🎉🎉 Two papers were accepted at ICMR 2024.
 - *2024.01*: &nbsp;🎉🎉 Started my PhD at The University of Texas at Dallas.
 
 
 # 📝 Publications 
+
+**NeurIPS 2025**
+
+*MEGADance: Mixture-of-Experts Architecture for Genre-Aware 3D Dance Generation*
+
+[[PDF](https://arxiv.org/abs/2505.17543)]
+[[CODE](https://github.com/XulongT/MEGADance)]
+
+Kaixing Yang\*, Xulong Tang\*, Ziqiao Peng, Yuxuan Hu, Jun He, Hongyan Liu
+
+\*: Equal contribution
+
+**ACM MM 2025**
+
+*CoheDancers: Interactive Group Dance Generation via Music-Driven Coherence Decomposition*
+
+[[PDF](https://arxiv.org/abs/2412.19123)]
+[[CODE](https://github.com/XulongT/CoheDancers)]
+
+Kaixing Yang\*, Xulong Tang\*, Haoyu Wu, Qinliang Xue, Biao Qin, Hongyan Liu, Zhaoxin Fan
+
+\*: Equal contribution
 
 **ICMR 2024**
 
@@ -53,7 +76,6 @@ I have also contributed to the development of an unreleased third-person surviva
 Kaixing Yang\*, Xulong Tang\*, Ran Diao, Hongyan Liu, Jun He, Zhaoxin Fan
 
 \*: Equal contribution
-
 
 **ICMR 2024**
 
