@@ -37,6 +37,7 @@ I have used Unity to create a VR educational game for teaching children about th
 I have also contributed to the development of an unreleased third-person survival shooter game using Unreal Engine and C++, where I was responsible for gameplay and user interface.
 
 # 🔥 News
+- *2026.01*: &nbsp;🎉🎉 One paper was accepted at IEEE VR 2025.
 - *2025.09*: &nbsp;🎉🎉 One paper was accepted at NeurIPS 2025.
 - *2025.07*: &nbsp;🎉🎉 One paper was accepted at ACM Multimedia 2025.
 - *2024.06*: &nbsp;🎉🎉 Two papers were accepted at ICMR 2024.
@@ -45,16 +46,26 @@ I have also contributed to the development of an unreleased third-person surviva
 
 # 📝 Publications 
 
-**NeurIPS 2025**
+\* denotes equal contribution
+
+**IEEE VR 2026**
+
+*Personalized Dance Synthesis Based on Physical and Cognitive Intensities*
+
+[[Project Page](https://xulongt.github.io/ARDance26/)]
+
+**Xulong Tang**, Eun Yeo, Ruiyu Mao, Xiaohu Guo, Rawan Alghofaili
+
+
+**NeurIPS 2025**
 
 *MEGADance: Mixture-of-Experts Architecture for Genre-Aware 3D Dance Generation*
 
 [[PDF](https://arxiv.org/abs/2505.17543)]
 [[CODE](https://github.com/XulongT/MEGADance)]
 
-Kaixing Yang\*, Xulong Tang\*, Ziqiao Peng, Yuxuan Hu, Jun He, Hongyan Liu
+Kaixing Yang\*, **Xulong Tang**\*, Ziqiao Peng, Yuxuan Hu, Jun He, Hongyan Liu
 
-\*: Equal contribution
 
 **ACM MM 2025**
 
@@ -63,9 +74,8 @@ Kaixing Yang\*, Xulong Tang\*, Ziqiao Peng, Yuxuan Hu, Jun He, Hongyan Liu
 [[PDF](https://arxiv.org/abs/2412.19123)]
 [[CODE](https://github.com/XulongT/CoheDancers)]
 
-Kaixing Yang\*, Xulong Tang\*, Haoyu Wu, Qinliang Xue, Biao Qin, Hongyan Liu, Zhaoxin Fan
+Kaixing Yang\*, **Xulong Tang**\*, Haoyu Wu, Qinliang Xue, Biao Qin, Hongyan Liu, Zhaoxin Fan
 
-\*: Equal contribution
 
 **ICMR 2024**
 
@@ -74,9 +84,8 @@ Kaixing Yang\*, Xulong Tang\*, Haoyu Wu, Qinliang Xue, Biao Qin, Hongyan Liu, Zh
 [[PDF](https://dl.acm.org/doi/abs/10.1145/3652583.3657998)]
 [[CODE](https://github.com/XulongT/CoDancers)]
 
-Kaixing Yang\*, Xulong Tang\*, Ran Diao, Hongyan Liu, Jun He, Zhaoxin Fan
+Kaixing Yang\*, **Xulong Tang**\*, Ran Diao, Hongyan Liu, Jun He, Zhaoxin Fan
 
-\*: Equal contribution
 
 **ICMR 2024**
 
@@ -85,14 +94,28 @@ Kaixing Yang\*, Xulong Tang\*, Ran Diao, Hongyan Liu, Jun He, Zhaoxin Fan
 [[PDF](https://dl.acm.org/doi/abs/10.1145/3652583.3658045)]
 [[CODE](https://github.com/XulongT/BeatDance)]
 
-Kaixing Yang, Xukun Zhou, Xulong Tang, Ran Diao, Hongyan Liu, Jun He, Zhaoxin Fan
+Kaixing Yang, Xukun Zhou, **Xulong Tang**, Ran Diao, Hongyan Liu, Jun He, Zhaoxin Fan
 
 # 📖 Education
 - *2024.01 - present*, PhD in Computer Science, The University of Texas at Dallas, Richardson, Texas
 - *2023.09 - 2024.01*, Master of Computer Science, The University of Texas at Dallas, Richardson, Texas
 - *2018.09 - 2022.06*, Undergraduate, Xidian University, Xi'an, China
 
+# 💼 Professional Experience
 
+**Reviewer**
+- *CVPR* &nbsp; (2025–2026)
+- *ECCV* &nbsp; (2026)
+- *IEEE Transactions on Computers* &nbsp; (2024–2025)
+- *IEEE Virtual Reality* &nbsp; (2024–2025)
+
+**Instructor**
+- *Augmented Reality 3D User Interface Design Workshop* &nbsp; (2024)
+- *Human-Centered eXtended Reality Lab* &nbsp; (2024)
+
+**Teaching Assistant**
+- *CS4332: Introduction to Programming Video Games*  (2025)
+- *CS6331: Human-Computer Interaction*  (2024)
 
 # 💻 Internships
 - *2021.12 - 2022.06*, Unreal Engine Developer, Shengqu Games, Shanghai, China
