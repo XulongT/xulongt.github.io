@@ -20,7 +20,7 @@ redirect_from:
 # 🐲 About Xulong
 Hello! I'm Xulong Tang, you can call me Ben!
 
-I am a second-year PhD student in the Department of Computer Science at The University of Texas at Dallas. My research is primarily advised by **Professor [Rawan Alghofaili](https://rawanmg.com/)** and co-advised by **Professor [Balakrishnan Prabhakaran](https://www.albany.edu/ai-plus/faculty/balakrishnan-prabha-prabhakaran)**.
+I am a third-year PhD student in the Department of Computer Science at The University of Texas at Dallas. My research is primarily advised by **Professor [Rawan Alghofaili](https://rawanmg.com/)** and co-advised by **Professor [Balakrishnan Prabhakaran](https://www.albany.edu/ai-plus/faculty/balakrishnan-prabha-prabhakaran)**.
 
 
 **Research Interests**: 
