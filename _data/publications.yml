@@ -6,6 +6,15 @@
 # 4. `authors` can contain simple HTML such as <strong>...</strong>.
 # The image badge is rendered from `venue` + `year`.
 
+- title: "MACE-Dance: Motion-Appearance Cascaded Experts for Music-Driven Dance Video Generation"
+  authors: "Kaixing Yang, Jiashu Zhu, <strong>Xulong Tang</strong>, Ziqiao Peng, Xiangyue Zhang, Puwei Wang, Jiahong Wu, Xiangxiang Chu, Hongyan Liu, Jun He"
+  venue: "SIGGRAPH"
+  year: 2026
+  image: "/images/publications/SIGGRAPH 2026.png"
+  paper_url: "https://arxiv.org/abs/2512.18181"
+  project_url: "https://sun-happy-ykx.github.io/MACE-Dance/"
+  code_url: "https://github.com/AMAP-ML/MACE-Dance"
+
 - title: "Personalized Dance Synthesis Based on Physical and Cognitive Intensities"
   authors: "<strong>Xulong Tang</strong>, Eun Yeo, Ruiyu Mao, Xiaohu Guo, Rawan Alghofaili"
   venue: "IEEE VR"
