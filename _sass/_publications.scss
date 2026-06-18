@@ -38,12 +38,13 @@
     display: inline-block;
     width: 100%;
     max-width: 400px;
+    padding-top: 1.75rem;
   }
 
   .badge {
     position: absolute;
-    top: 0.85rem;
-    left: 0.85rem;
+    top: 0;
+    left: 0;
     z-index: 1;
     padding: 0.28rem 0.7rem;
     border-radius: 999px;

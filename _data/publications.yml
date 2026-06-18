@@ -6,6 +6,24 @@
 # 4. `authors` can contain simple HTML such as <strong>...</strong>.
 # The image badge is rendered from `venue` + `year`.
 
+- title: "FlowerDance: MeanFlow for Efficient and Refined 3D Dance Generation"
+  authors: "Kaixing Yang&#42;, <strong>Xulong Tang</strong>&#42;, Ziqiao Peng, Xiangyue Zhang, Chubin Chen, Xukun Zhou, Puwei Wang, Hongyan Liu, Jun He"
+  venue: "ECCV"
+  year: 2026
+  image: "/images/publications/ECCV 2026 FlowerDance.png"
+  paper_url: "https://arxiv.org/abs/2511.21029"
+  project_url: "https://sun-happy-ykx.github.io/FlowerDance/"
+  code_url: "https://github.com/XulongT/FlowerDance"
+
+- title: "OmniDance: Multimodal Driven Dance Video Generation with Large-scale Internet Data"
+  authors: "Kaixing Yang, Jiashu Zhu, <strong>Xulong Tang</strong>, Ziqiao Peng, Xiangyue Zhang, Chubin Chen, Puwei Wang, Jiahong Wu, Xiangxiang Chu, Hongyan Liu, Jun He"
+  venue: "ECCV"
+  year: 2026
+  image: "/images/publications/ECCV 2026 OmniDance.png"
+  paper_url:
+  project_url:
+  code_url:
+
 - title: "MACE-Dance: Motion-Appearance Cascaded Experts for Music-Driven Dance Video Generation"
   authors: "Kaixing Yang, Jiashu Zhu, <strong>Xulong Tang</strong>, Ziqiao Peng, Xiangyue Zhang, Puwei Wang, Jiahong Wu, Xiangxiang Chu, Hongyan Liu, Jun He"
   venue: "SIGGRAPH"

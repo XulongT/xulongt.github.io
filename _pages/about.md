@@ -37,7 +37,8 @@ I have used Unity to create a VR educational game for teaching children about th
 I have also contributed to the development of an unreleased third-person survival shooter game using Unreal Engine and C++, where I was responsible for gameplay and user interface.
 
 # 🔥 News
-- *2026.03*: &nbsp;🎉🎉 One paper was conditionally accepted at SIGGRAPH 2026.
+- *2026.06*: &nbsp;🎉🎉 Two papers were accepted at ECCV 2026.
+- *2026.03*: &nbsp;🎉🎉 One paper was accepted at SIGGRAPH 2026.
 - *2026.03*: &nbsp;🎉🎉 One paper was accepted at CVPR Workshop 2026.
 - *2026.01*: &nbsp;🎉🎉 One paper was accepted at IEEE VR 2026.
 - *2025.09*: &nbsp;🎉🎉 One paper was accepted at NeurIPS 2025.
