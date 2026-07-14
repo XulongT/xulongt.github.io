@@ -20,9 +20,9 @@
   venue: "ECCV"
   year: 2026
   image: "/images/publications/ECCV 2026 OmniDance.png"
-  paper_url:
-  project_url:
-  code_url:
+  paper_url: "https://sun-happy-ykx.github.io/OmniDance/assets/papers/omnidance-eccv-2026.pdf"
+  project_url: "https://sun-happy-ykx.github.io/OmniDance/"
+  code_url: "https://github.com/AMAP-ML/OmniDance"
 
 - title: "MACE-Dance: Motion-Appearance Cascaded Experts for Music-Driven Dance Video Generation"
   authors: "Kaixing Yang, Jiashu Zhu, <strong>Xulong Tang</strong>, Ziqiao Peng, Xiangyue Zhang, Puwei Wang, Jiahong Wu, Xiangxiang Chu, Hongyan Liu, Jun He"
@@ -47,7 +47,7 @@
   venue: "CVPR Workshop"
   year: 2026
   image: "/images/publications/CVPRW 2026.png"
-  paper_url:
+  paper_url: "https://openaccess.thecvf.com/content/CVPR2026W/HuMoGen/papers/Yang_TokenDance_Token-to-Token_Music-to-Dance_Generation_with_Bidirectional_Mamba_CVPRW_2026_paper.pdf"
   project_url:
   code_url:
 
