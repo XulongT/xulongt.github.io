@@ -2,50 +2,52 @@
 {% if publications and publications.size > 0 %}
   <div class="publications-section">
     {% for publication in publications %}
-      {% assign image_src = publication.image | default: "/images/publications/publication-placeholder-motion.svg" %}
-      {% unless image_src contains "://" %}
-        {% assign image_src = image_src | relative_url %}
-      {% endunless %}
+      {% if publication.selected != false %}
+        {% assign image_src = publication.image | default: "/images/publications/publication-placeholder-motion.svg" %}
+        {% unless image_src contains "://" %}
+          {% assign image_src = image_src | relative_url %}
+        {% endunless %}
 
-      {% assign badge_text = publication.venue | default: "" | strip %}
-      {% if publication.year %}
-        {% if badge_text != "" %}
-          {% assign badge_text = badge_text | append: " " %}
-        {% endif %}
-        {% assign badge_text = badge_text | append: publication.year %}
-      {% endif %}
-      {% capture authors_html %}{{ publication.authors | markdownify }}{% endcapture %}
-
-      <article class="paper-box">
-        <div class="paper-box-image">
-          <div class="paper-thumb">
-            {% if badge_text != "" %}
-              <span class="badge">{{ badge_text }}</span>
-            {% endif %}
-            <img src="{{ image_src }}" alt="{{ publication.title | escape }} preview" loading="lazy">
-          </div>
-        </div>
-
-        <div class="paper-box-text">
-          <h3 class="paper-box-title">{{ publication.title }}</h3>
-
-          {% if publication.paper_url or publication.project_url or publication.code_url %}
-            <div class="paper-box-links">
-              {% if publication.paper_url %}
-                <a href="{{ publication.paper_url }}" target="_blank" rel="noopener">Paper</a>
-              {% endif %}
-              {% if publication.project_url %}
-                <a href="{{ publication.project_url }}" target="_blank" rel="noopener">Project</a>
-              {% endif %}
-              {% if publication.code_url %}
-                <a href="{{ publication.code_url }}" target="_blank" rel="noopener">Code</a>
-              {% endif %}
-            </div>
+        {% assign badge_text = publication.venue | default: "" | strip %}
+        {% if publication.year %}
+          {% if badge_text != "" %}
+            {% assign badge_text = badge_text | append: " " %}
           {% endif %}
+          {% assign badge_text = badge_text | append: publication.year %}
+        {% endif %}
+        {% capture authors_html %}{{ publication.authors | markdownify }}{% endcapture %}
 
-          <p class="paper-box-authors">{{ authors_html | strip | replace: "<p>", "" | replace: "</p>", "" }}</p>
-        </div>
-      </article>
+        <article class="paper-box">
+          <div class="paper-box-image">
+            <div class="paper-thumb">
+              {% if badge_text != "" %}
+                <span class="badge">{{ badge_text }}</span>
+              {% endif %}
+              <img src="{{ image_src }}" alt="{{ publication.title | escape }} preview" loading="lazy">
+            </div>
+          </div>
+
+          <div class="paper-box-text">
+            <h3 class="paper-box-title">{{ publication.title }}</h3>
+
+            {% if publication.paper_url or publication.project_url or publication.code_url %}
+              <div class="paper-box-links">
+                {% if publication.paper_url %}
+                  <a href="{{ publication.paper_url }}" target="_blank" rel="noopener">Paper</a>
+                {% endif %}
+                {% if publication.project_url %}
+                  <a href="{{ publication.project_url }}" target="_blank" rel="noopener">Project</a>
+                {% endif %}
+                {% if publication.code_url %}
+                  <a href="{{ publication.code_url }}" target="_blank" rel="noopener">Code</a>
+                {% endif %}
+              </div>
+            {% endif %}
+
+            <p class="paper-box-authors">{{ authors_html | strip | replace: "<p>", "" | replace: "</p>", "" }}</p>
+          </div>
+        </article>
+      {% endif %}
     {% endfor %}
   </div>
 {% endif %}

@@ -46,6 +46,7 @@
   authors: "Ziyue Yang, Kaixing Yang, <strong>Xulong Tang</strong>"
   venue: "CVPR Workshop"
   year: 2026
+  selected: false
   image: "/images/publications/CVPRW 2026.png"
   paper_url: "https://openaccess.thecvf.com/content/CVPR2026W/HuMoGen/papers/Yang_TokenDance_Token-to-Token_Music-to-Dance_Generation_with_Bidirectional_Mamba_CVPRW_2026_paper.pdf"
   project_url:
@@ -73,6 +74,7 @@
   authors: "Kaixing Yang&#42;, <strong>Xulong Tang</strong>&#42;, Ran Diao, Hongyan Liu, Jun He, Zhaoxin Fan"
   venue: "ICMR"
   year: 2024
+  selected: false
   image: "/images/publications/ICMR 2024 1.png"
   paper_url: "https://dl.acm.org/doi/epdf/10.1145/3652583.3657998"
   project_url:
@@ -82,6 +84,7 @@
   authors: "Kaixing Yang, Xukun Zhou, <strong>Xulong Tang</strong>, Ran Diao, Hongyan Liu, Jun He, Zhaoxin Fan"
   venue: "ICMR"
   year: 2024
+  selected: false
   image: "/images/publications/ICMR 2024 2.png"
   paper_url: "https://dl.acm.org/doi/epdf/10.1145/3652583.3658045"
   project_url:

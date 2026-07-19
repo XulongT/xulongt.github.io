@@ -37,6 +37,7 @@ I have used Unity to create a VR educational game for teaching children about th
 I have also contributed to the development of an unreleased third-person survival shooter game using Unreal Engine and C++, where I was responsible for gameplay and user interface.
 
 # 🔥 News
+- *2026.07*: &nbsp;🎉🎉 One paper was conditionally accepted to SIGGRAPH Asia 2026.
 - *2026.06*: &nbsp;🎉🎉 Two papers were accepted at ECCV 2026.
 - *2026.03*: &nbsp;🎉🎉 One paper was accepted at SIGGRAPH 2026.
 - *2026.03*: &nbsp;🎉🎉 One paper was accepted at CVPR Workshop 2026.
@@ -46,7 +47,7 @@ I have also contributed to the development of an unreleased third-person surviva
 - *2024.06*: &nbsp;🎉🎉 Two papers were accepted at ICMR 2024.
 - *2024.01*: &nbsp;🎉🎉 Started my PhD at The University of Texas at Dallas.
 
-# 📝 Publications
+# 📝 Selected Publications
 
 \* denotes equal contribution.
 
@@ -55,6 +56,8 @@ Maintain publications in /_data/publications.yml.
 This section is rendered by /_includes/publications.html.
 {% endcomment %}
 {% include publications.html %}
+
+<p class="publication-list-nav"><a href="/publications/" target="_blank" rel="noopener">View Full Publication List</a></p>
 
 # 📖 Education
 - *2024.01 - present*, PhD in Computer Science, The University of Texas at Dallas, Richardson, Texas
@@ -66,6 +69,7 @@ This section is rendered by /_includes/publications.html.
 **Reviewer**
 - *CVPR* &nbsp; (2025–2026)
 - *ECCV* &nbsp; (2026)
+- *Multimedia Systems* &nbsp; (2026)
 - *IEEE Transactions on Computers* &nbsp; (2024–2025)
 - *IEEE Virtual Reality* &nbsp; (2024–2025)
 
