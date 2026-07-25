@@ -18,7 +18,12 @@
       {% endif %}
 
       <article class="publication-list-item">
-        <h3 class="publication-list-title">{{ publication.title }}</h3>
+        <h3 class="publication-list-title">
+          {{ publication.title }}
+          {% if publication.honor %}
+            <span class="publication-honor">{{ publication.honor }}</span>
+          {% endif %}
+        </h3>
 
         <p class="publication-list-authors">{{ authors_html | strip | replace: "<p>", "" | replace: "</p>", "" }}</p>
 

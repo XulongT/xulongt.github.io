@@ -15,6 +15,9 @@
           {% endif %}
           {% assign badge_text = badge_text | append: publication.year %}
         {% endif %}
+        {% if publication.honor %}
+          {% assign badge_text = badge_text | append: " - " | append: publication.honor %}
+        {% endif %}
         {% capture authors_html %}{{ publication.authors | markdownify }}{% endcapture %}
 
         <article class="paper-box">
@@ -28,7 +31,12 @@
           </div>
 
           <div class="paper-box-text">
-            <h3 class="paper-box-title">{{ publication.title }}</h3>
+            <h3 class="paper-box-title">
+              {{ publication.title }}
+              {% if publication.honor %}
+                <span class="publication-honor">{{ publication.honor }}</span>
+              {% endif %}
+            </h3>
 
             {% if publication.paper_url or publication.project_url or publication.code_url %}
               <div class="paper-box-links">

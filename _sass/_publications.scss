@@ -197,6 +197,20 @@
   line-height: 1.35;
 }
 
+.publication-honor {
+  display: inline-block;
+  margin-left: 0.4rem;
+  padding: 0.08rem 0.38rem;
+  border: 1px solid #9b2c2c;
+  border-radius: 3px;
+  color: #9b2c2c;
+  background-color: #fff1f1;
+  font-size: 0.72em;
+  font-weight: 700;
+  line-height: 1.2;
+  vertical-align: middle;
+}
+
 .publication-list-authors {
   margin: 0 0 0.35rem;
   color: $darker-gray;
