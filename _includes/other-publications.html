@@ -1,0 +1,33 @@
+{% assign publications = include.publications | default: site.data.publications %}
+{% if publications and publications.size > 0 %}
+  <div class="other-publications">
+    {% for publication in publications %}
+      {% if publication.selected == false %}
+        {% assign venue_text = publication.venue | default: "" | strip %}
+        {% if publication.year %}
+          {% if venue_text != "" %}
+            {% assign venue_text = venue_text | append: " " %}
+          {% endif %}
+          {% assign venue_text = venue_text | append: publication.year %}
+        {% endif %}
+        {% capture authors_html %}{{ publication.authors | markdownify }}{% endcapture %}
+
+        <article class="other-publication">
+          <div class="other-publication-header">
+            <h3 class="other-publication-title">
+              {% if publication.paper_url %}
+                <a href="{{ publication.paper_url }}" target="_blank" rel="noopener">{{ publication.title }}</a>
+              {% else %}
+                {{ publication.title }}
+              {% endif %}
+            </h3>
+            {% include publication-badges.html publication=publication %}
+          </div>
+
+          <p class="other-publication-authors">{{ authors_html | strip | replace: "<p>", "" | replace: "</p>", "" }}</p>
+          <p class="other-publication-venue">{{ venue_text }}</p>
+        </article>
+      {% endif %}
+    {% endfor %}
+  </div>
+{% endif %}

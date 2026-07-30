@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "XULONG TANG / Personal Homepage"
-description              : "AI for Art, AI for Life"
+description              : ""
 repository               : "XulongT/xulongt.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Xulong Tang (Ben)"
-  avatar           : "images/profile.png"
+  avatar           : "images/profile.png?v=20260730"
   bio              : "The University of Texas at Dallas"
   location         : "Plano, Texas"
   employer         :

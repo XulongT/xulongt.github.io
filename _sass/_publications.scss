@@ -110,28 +110,6 @@
     color: $dark-gray;
   }
 
-  .paper-box-links {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 0 0.55rem;
-    font-size: 0.96em;
-  }
-
-  .paper-box-links a {
-    text-decoration: none;
-  }
-
-  .paper-box-links a:hover {
-    text-decoration: underline;
-  }
-
-  .paper-box-links a + a::before {
-    content: "/";
-    margin: 0 0.45rem;
-    color: $gray;
-    text-decoration: none;
-  }
-
   .paper-box-description {
     color: $dark-gray;
   }
@@ -164,39 +142,6 @@
   }
 }
 
-.publication-list-section {
-  margin-top: 0.5rem;
-}
-
-.publication-list-nav {
-  margin: 1.25rem 0 2.5rem;
-  font-weight: 600;
-}
-
-.publication-list-venue-heading {
-  margin: 2rem 0 0.4rem;
-  padding-bottom: 0.4rem;
-  border-bottom: 2px solid $border-color;
-  color: #163a70;
-  font-size: 1.05em;
-  font-weight: 700;
-}
-
-.publication-list-section > .publication-list-venue-heading:first-child {
-  margin-top: 0.5rem;
-}
-
-.publication-list-item {
-  padding: 0.95rem 0;
-  border-bottom: 1px solid $border-color;
-}
-
-.publication-list-title {
-  margin: 0 0 0.35rem;
-  font-size: 1em;
-  line-height: 1.35;
-}
-
 .publication-honor {
   display: inline-block;
   margin-left: 0.4rem;
@@ -211,14 +156,68 @@
   vertical-align: middle;
 }
 
-.publication-list-authors {
-  margin: 0 0 0.35rem;
+.publication-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin: 0 0 0.7rem;
+}
+
+.publication-badges a {
+  display: block;
+  line-height: 0;
+}
+
+.publication-badges img {
+  display: block;
+  height: 20px;
+  width: auto;
+}
+
+.other-publications {
+  margin-top: 0.25rem;
+}
+
+.other-publication {
+  padding: 1rem 0;
+  border-bottom: 1px solid $border-color;
+}
+
+.other-publication-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem 0.6rem;
+}
+
+.other-publication-title {
+  margin: 0;
+  font-size: 1em;
+  line-height: 1.35;
+}
+
+.other-publication-title a {
+  text-decoration: none;
+}
+
+.other-publication-title a:hover {
+  text-decoration: underline;
+}
+
+.other-publication-header .publication-badges {
+  margin: 0;
+}
+
+.other-publication-authors {
+  margin: 0.45rem 0 0.25rem;
   color: $darker-gray;
   font-size: 0.95em;
   line-height: 1.45;
 }
 
-.publication-list-links {
-  margin-bottom: 0;
-  font-size: 0.94em;
+.other-publication-venue {
+  margin: 0;
+  color: $dark-gray;
+  font-size: 0.9em;
+  font-weight: 600;
 }

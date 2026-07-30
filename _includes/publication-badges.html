@@ -1,0 +1,30 @@
+{% assign publication = include.publication %}
+{% if publication.paper_url or publication.project_url or publication.code_url or publication.huggingface_url or publication.dataset_url %}
+  <div class="publication-badges">
+    {% if publication.paper_url %}
+      <a href="{{ publication.paper_url }}" target="_blank" rel="noopener">
+        <img src="https://img.shields.io/badge/Paper-PDF-B31B1B?style=flat-square" alt="Paper">
+      </a>
+    {% endif %}
+    {% if publication.project_url %}
+      <a href="{{ publication.project_url }}" target="_blank" rel="noopener">
+        <img src="https://img.shields.io/badge/Project-Page-2563EB?style=flat-square" alt="Project Page">
+      </a>
+    {% endif %}
+    {% if publication.code_url %}
+      <a href="{{ publication.code_url }}" target="_blank" rel="noopener">
+        <img src="https://img.shields.io/badge/Code-GitHub-181717?style=flat-square&amp;logo=github&amp;logoColor=white" alt="Code">
+      </a>
+    {% endif %}
+    {% if publication.huggingface_url %}
+      <a href="{{ publication.huggingface_url }}" target="_blank" rel="noopener">
+        <img src="https://img.shields.io/badge/Hugging_Face-%F0%9F%A4%97_Model-FFD21E?style=flat-square" alt="Hugging Face">
+      </a>
+    {% endif %}
+    {% if publication.dataset_url %}
+      <a href="{{ publication.dataset_url }}" target="_blank" rel="noopener">
+        <img src="https://img.shields.io/badge/Dataset-I--Dancers-0F766E?style=flat-square" alt="I-Dancers Dataset">
+      </a>
+    {% endif %}
+  </div>
+{% endif %}

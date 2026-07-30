@@ -32,25 +32,17 @@
 
           <div class="paper-box-text">
             <h3 class="paper-box-title">
-              {{ publication.title }}
+              {% if publication.paper_url %}
+                <a href="{{ publication.paper_url }}" target="_blank" rel="noopener">{{ publication.title }}</a>
+              {% else %}
+                {{ publication.title }}
+              {% endif %}
               {% if publication.honor %}
                 <span class="publication-honor">{{ publication.honor }}</span>
               {% endif %}
             </h3>
 
-            {% if publication.paper_url or publication.project_url or publication.code_url %}
-              <div class="paper-box-links">
-                {% if publication.paper_url %}
-                  <a href="{{ publication.paper_url }}" target="_blank" rel="noopener">Paper</a>
-                {% endif %}
-                {% if publication.project_url %}
-                  <a href="{{ publication.project_url }}" target="_blank" rel="noopener">Project</a>
-                {% endif %}
-                {% if publication.code_url %}
-                  <a href="{{ publication.code_url }}" target="_blank" rel="noopener">Code</a>
-                {% endif %}
-              </div>
-            {% endif %}
+            {% include publication-badges.html publication=publication %}
 
             <p class="paper-box-authors">{{ authors_html | strip | replace: "<p>", "" | replace: "</p>", "" }}</p>
           </div>
