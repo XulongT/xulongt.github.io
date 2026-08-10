@@ -7,11 +7,11 @@
 # The image badge is rendered from `venue` + `year`.
 
 - title: "CustomDance: Customized 3D Dance Generation with a Coarse-to-Fine Human-Centered Interactive System"
-  authors: "<strong>Xulong Tang</strong>, Kaixing Yang, Xiaohu Guo, Balakrishnan Prabhakaran, Rawan Alghofaili"
+  authors: "<strong>Xulong Tang</strong>, Kaixing Yang, Xiaohu Guo, Prabhakaran Balakrishnan, Rawan Alghofaili"
   venue: "SIGGRAPH Asia"
   year: 2026
   image: "/images/publications/CustomDance.png"
-  paper_url:
+  paper_url: "https://arxiv.org/pdf/2608.06722"
   project_url: "https://xulongt.github.io/customdance-project-page/"
   code_url:
 
