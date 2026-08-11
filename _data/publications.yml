@@ -6,7 +6,7 @@
 # 4. `authors` can contain simple HTML such as <strong>...</strong>.
 # The image badge is rendered from `venue` + `year`.
 
-- title: "CustomDance: Customized 3D Dance Generation with a Coarse-to-Fine Human-Centered Interactive Control"
+- title: "CustomDance: Customized 3D Dance Generation with Coarse-to-Fine Human-Centered Interactive Control"
   authors: "<strong>Xulong Tang</strong>, Kaixing Yang, Xiaohu Guo, Prabhakaran Balakrishnan, Rawan Alghofaili"
   venue: "SIGGRAPH Asia"
   year: 2026
