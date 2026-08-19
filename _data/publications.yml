@@ -53,6 +53,15 @@
   project_url: "https://xulongt.github.io/ARDance26/"
   code_url:
 
+- title: "MATHDance: Mamba-Transformer Architecture with Uniform Tokenization for High-Quality 3D Dance Generation"
+  authors: "Kaixing Yang&#42;, <strong>Xulong Tang</strong>&#42;, Ziqiao Peng, Yuxuan Hu, Xiangyue Zhang, Puwei Wang, Hongyan Liu, Jun He, Zhaoxin Fan"
+  venue: "ACM MM Workshop"
+  year: 2026
+  selected: false
+  paper_url: "https://arxiv.org/abs/2505.14222"
+  project_url:
+  code_url:
+
 - title: "TokenDance: Token-to-Token Music-to-Dance Generation with Bidirectional Mamba"
   authors: "Ziyue Yang, Kaixing Yang, <strong>Xulong Tang</strong>"
   venue: "CVPR Workshop"

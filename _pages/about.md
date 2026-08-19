@@ -36,6 +36,7 @@ I have used Unity to create a VR educational game for teaching children about th
 I have also contributed to the development of an unreleased third-person survival shooter game using Unreal Engine and C++, where I was responsible for gameplay and user interface.
 
 # 🔥 News
+- *2026.08*: &nbsp;🎉🎉 **[MATHDance](https://arxiv.org/abs/2505.14222)** was accepted at ACM MM 2026 Workshop.
 - *2026.07*: &nbsp;🎉🎉 **[CustomDance](https://xulongt.github.io/customdance-project-page/)** was conditionally accepted to SIGGRAPH Asia 2026.
 - *2026.06*: &nbsp;🎉🎉 **[FlowerDance](https://sun-happy-ykx.github.io/FlowerDance/)** and **[OmniDance](https://sun-happy-ykx.github.io/OmniDance/)** were accepted at ECCV 2026.
 - *2026.03*: &nbsp;🎉🎉 **[MACE-Dance](https://sun-happy-ykx.github.io/MACE-Dance/)** was accepted at SIGGRAPH 2026.
