@@ -20,7 +20,7 @@
   venue: "ECCV"
   year: 2026
   image: "/images/publications/ECCV 2026 FlowerDance.png"
-  paper_url: "https://arxiv.org/abs/2511.21029"
+  paper_url: "https://media.eventhosts.cc/Conferences/ECCV2026/pdfs/5049.pdf"
   project_url: "https://sun-happy-ykx.github.io/FlowerDance/"
   code_url: "https://github.com/XulongT/FlowerDance"
   huggingface_url: "https://huggingface.co/xlt99/FlowerDance"
