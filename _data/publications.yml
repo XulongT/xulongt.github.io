@@ -13,7 +13,7 @@
   image: "/images/publications/CustomDance.png"
   paper_url: "https://arxiv.org/pdf/2608.06722"
   project_url: "https://xulongt.github.io/customdance-project-page/"
-  code_url:
+  code_url: "https://github.com/XulongT/CustomDance"
 
 - title: "FlowerDance: MeanFlow for Efficient and Refined 3D Dance Generation"
   authors: "Kaixing Yang&#42;, <strong>Xulong Tang</strong>&#42;, Ziqiao Peng, Xiangyue Zhang, Chubin Chen, Xukun Zhou, Puwei Wang, Hongyan Liu, Jun He"
