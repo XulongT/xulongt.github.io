@@ -37,7 +37,7 @@ I have also contributed to the development of an unreleased third-person surviva
 
 # 🔥 News
 - *2026.08*: &nbsp;🎉🎉 **[MATHDance](https://arxiv.org/abs/2505.14222)** was accepted at ACM Multimedia Workshop 2026.
-- *2026.07*: &nbsp;🎉🎉 **[CustomDance](https://xulongt.github.io/customdance-project-page/)** was conditionally accepted to SIGGRAPH Asia 2026.
+- *2026.07*: &nbsp;🎉🎉 **[CustomDance](https://xulongt.github.io/customdance-project-page/)** was accepted to SIGGRAPH Asia 2026.
 - *2026.06*: &nbsp;🎉🎉 **[FlowerDance](https://sun-happy-ykx.github.io/FlowerDance/)** and **[OmniDance](https://sun-happy-ykx.github.io/OmniDance/)** were accepted at ECCV 2026.
 - *2026.03*: &nbsp;🎉🎉 **[MACE-Dance](https://sun-happy-ykx.github.io/MACE-Dance/)** was accepted at SIGGRAPH 2026.
 - *2026.03*: &nbsp;🎉🎉 **[TokenDance](https://openaccess.thecvf.com/content/CVPR2026W/HuMoGen/papers/Yang_TokenDance_Token-to-Token_Music-to-Dance_Generation_with_Bidirectional_Mamba_CVPRW_2026_paper.pdf)** was accepted at CVPR Workshop 2026.
