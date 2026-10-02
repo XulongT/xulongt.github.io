@@ -27,15 +27,12 @@ I am a third-year PhD student in the Department of Computer Science at The Unive
 - Digital Human
 - 3D Motion Generation
 - Human-Centered Interactive Systems
-- Video Generation
+- Extended Reality
 
-In addition to my research, I am also a game developer:
-
-I have used Unity to create a VR educational game for teaching children about the universe at the [Sci-Tech Discovery Center](https://mindstretchingfun.org/). 
-
-I have also contributed to the development of an unreleased third-person survival shooter game using Unreal Engine and C++, where I was responsible for gameplay and user interface.
+Beyond research, I am also a game developer and a Popping dancer.
 
 # 🔥 News
+- *2026.10*: &nbsp;🔬🔬 I joined Sony's **[Creative AI Lab](https://sony.github.io/creativeai/)** as a Research Intern, working with **[Dongseok Shim](https://dsshim0125.github.io/)** and **[Takashi Shibuya](https://yahshibu.github.io/)**.
 - *2026.08*: &nbsp;🎉🎉 **[MATHDance](https://arxiv.org/abs/2505.14222)** was accepted at ACM Multimedia Workshop 2026.
 - *2026.07*: &nbsp;🎉🎉 **[CustomDance](https://xulongt.github.io/customdance-project-page/)** was accepted to SIGGRAPH Asia 2026.
 - *2026.06*: &nbsp;🎉🎉 **[FlowerDance](https://sun-happy-ykx.github.io/FlowerDance/)** and **[OmniDance](https://sun-happy-ykx.github.io/OmniDance/)** were accepted at ECCV 2026.
@@ -45,7 +42,7 @@ I have also contributed to the development of an unreleased third-person surviva
 - *2025.09*: &nbsp;🎉🎉 **[MEGADance](https://sun-happy-ykx.github.io/MEGADance/)** was accepted at NeurIPS 2025.
 - *2025.07*: &nbsp;🎉🎉 **[CoheDancers](https://dl.acm.org/doi/epdf/10.1145/3746027.3755267)** was accepted at ACM Multimedia 2025.
 - *2024.06*: &nbsp;🎉🎉 **[CoDancers](https://dl.acm.org/doi/epdf/10.1145/3652583.3657998)** and **[BeatDance](https://dl.acm.org/doi/epdf/10.1145/3652583.3658045)** were accepted at ICMR 2024.
-- *2024.01*: &nbsp;🎉🎉 Started my PhD at The University of Texas at Dallas.
+- *2024.01*: &nbsp;🎓🎓 Started my PhD at The University of Texas at Dallas.
 
 # 📝 Selected Publications
 
@@ -61,6 +58,21 @@ This section is rendered by /_includes/publications.html.
 
 {% include other-publications.html %}
 
+# 💻 Work Experience
+
+<div class="work-experience">
+  <article class="experience-item">
+    <a class="experience-logo" href="https://sony.github.io/creativeai/" target="_blank" rel="noopener" aria-label="Sony AI Creative AI Lab">
+      <img src="/images/sony-ai-logo.png" alt="Sony AI logo">
+    </a>
+    <div class="experience-details">
+      <p class="experience-role"><strong>Sony AI</strong>, Research Intern</p>
+      <p class="experience-date"><em>2026.10 - Present</em></p>
+      <p class="experience-team"><a href="https://sony.github.io/creativeai/" target="_blank" rel="noopener">Creative AI Lab</a> · USA</p>
+    </div>
+  </article>
+</div>
+
 # 📖 Education
 - *2024.01 - present*, PhD in Computer Science, The University of Texas at Dallas, Richardson, Texas
 - *2023.09 - 2024.01*, Master of Computer Science, The University of Texas at Dallas, Richardson, Texas
@@ -69,6 +81,7 @@ This section is rendered by /_includes/publications.html.
 # 💼 Professional Experience
 
 **Reviewer**
+- *CHI* &nbsp; (2027)
 - *CVPR* &nbsp; (2025–2026)
 - *ECCV* &nbsp; (2026)
 - *Multimedia Systems* &nbsp; (2026)
@@ -82,6 +95,3 @@ This section is rendered by /_includes/publications.html.
 **Teaching Assistant**
 - *CS4332: Introduction to Programming Video Games*  (2025)
 - *CS6331: Human-Computer Interaction*  (2024)
-
-# 💻 Internships
-- *2021.12 - 2022.06*, Unreal Engine Developer, Shengqu Games, Shanghai, China

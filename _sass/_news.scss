@@ -1,0 +1,24 @@
+.news-updates > li[hidden] {
+  display: none;
+}
+
+.news-toggle {
+  display: inline-block;
+  margin: 0.15rem 0 0.5rem;
+  padding: 0.25rem 0;
+  border: 0;
+  background: transparent;
+  color: $link-color;
+  font: inherit;
+  font-size: 0.9em;
+  cursor: pointer;
+}
+
+.news-toggle:hover {
+  text-decoration: underline;
+}
+
+.news-toggle:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 4px;
+}

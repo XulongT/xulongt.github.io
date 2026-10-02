@@ -1,0 +1,78 @@
+/* ==========================================================================
+   Work experience
+   ========================================================================== */
+
+.work-experience {
+  margin: 0.35rem 0 0;
+}
+
+.experience-item {
+  display: grid;
+  grid-template-columns: minmax(80px, 96px) minmax(0, 1fr);
+  gap: 1rem;
+  align-items: center;
+  padding: 0.85rem 0 0.35rem;
+}
+
+.experience-logo {
+  display: flex;
+  min-height: 64px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none !important;
+}
+
+.experience-logo img {
+  display: block;
+  width: 100%;
+  max-width: 140px;
+  height: auto;
+  box-shadow: none !important;
+}
+
+.experience-details {
+  min-width: 0;
+}
+
+.experience-details p {
+  margin: 0;
+  line-height: 1.4;
+}
+
+.experience-role {
+  color: $text-color;
+}
+
+.experience-date,
+.experience-team {
+  margin-top: 0.1rem !important;
+  font-size: 0.95em !important;
+}
+
+.experience-date {
+  color: $gray;
+}
+
+.experience-team {
+  color: $dark-gray;
+}
+
+.experience-team a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.experience-team a:hover {
+  text-decoration: underline;
+}
+
+@include breakpoint($medium) {
+  .experience-item {
+    grid-template-columns: 150px minmax(0, 1fr);
+    gap: 1.4rem;
+  }
+
+  .experience-logo {
+    min-height: 76px;
+  }
+}
